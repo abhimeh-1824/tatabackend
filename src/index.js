@@ -12,6 +12,12 @@ const trendingController = require("./controller/trending.controller")
 
 const categoriesController = require("./controller/Categories.controller")
 
+const tata1MgController = require("./controller/tata1Mg.controller")
+
+const healthConController = require("./controller/healthconcern.controller")
+
+const healthFoodController = require("./controller/healthFood.controller")
+
 
 const app = express();
 
@@ -30,5 +36,13 @@ app.use("/trending" , trendingController )
 
 app.use("/categories" , categoriesController )
 
+
+app.use("/tata1Mg" , tata1MgController )
+
+
+app.use("/healthCon" , healthConController  )
+
+
+app.use("/healthFood" , healthFoodController  )
 
 module.exports = app;
