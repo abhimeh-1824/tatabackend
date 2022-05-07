@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Vaibhav0702/tata-1Mg_Backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "mongoose": "^6.3.2",
     "node-module": "^2.0.0"
