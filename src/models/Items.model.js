@@ -13,7 +13,7 @@ const ItemsSchema = new mongoose.Schema(
     payment: { type: String, required: false },
     star: { type: String, required: false },
     rating: { type: String, required: false },
-    id:{ type: Number, required: false },
+    id: { type: Number, required: false },
   },
   {
     timestamps: true,
@@ -21,4 +21,4 @@ const ItemsSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("item",ItemsSchema);
+module.exports = mongoose.model("item", ItemsSchema);
