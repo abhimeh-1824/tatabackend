@@ -20,8 +20,7 @@ const healthConController = require("./controller/healthconcern.controller");
 
 const healthFoodController = require("./controller/healthFood.controller");
 
-
-// ! Abhishe mehra
+// ----------
 const zanduController = require("./controller/Zandu.controller");
 const BrandsController = require("./controller/Brands.controller");
 const ItemsController = require("./controller/Item.controller");
@@ -44,7 +43,7 @@ app.use("/healthCon", healthConController);
 app.use("/healthFood", healthFoodController);
 
 
-// ! Abhishek mehra
+// -------------
 app.use("/zandu", zanduController);
 app.use("/zandu/id", zanduController);
 
