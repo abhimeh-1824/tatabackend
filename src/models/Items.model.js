@@ -16,8 +16,8 @@ const ItemsSchema = new mongoose.Schema(
     id:{ type: Number, required: false },
   },
   {
-    timestamps: false,
-    versionKey: true,
+    timestamps: true,
+    versionKey: false,
   }
 );
 

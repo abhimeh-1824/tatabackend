@@ -26,8 +26,8 @@ const zanduSchema = new mongoose.Schema(
     people: { type: Number, required: false },
   },
   {
-    timestamps: false,
-    versionKey: true,
+    timestamps: true,
+    versionKey: false,
   }
 );
 
